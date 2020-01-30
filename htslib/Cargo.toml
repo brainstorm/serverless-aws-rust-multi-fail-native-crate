@@ -1,0 +1,9 @@
+[package]
+name = "htslib"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rust-htslib = "0.26.1"
+lambda_runtime = "0.2"
+serde_json = "1.0"

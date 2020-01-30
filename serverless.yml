@@ -91,6 +91,12 @@ functions:
           path: /
           method: get
 
+  htslib:
+    handler: htslib 
+    events:
+      - http:
+          path: /{proxy+}
+          method: get
 # you can add CloudFormation resource templates here
 #resources:
 #  Resources:
